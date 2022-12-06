@@ -213,6 +213,10 @@ section img{
     overflow: hidden;
     }
  }
+.column {
+  width: 100%;
+}
+
 @media (min-width: 600px) {
   .column {
     width: 50%;
