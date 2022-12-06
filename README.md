@@ -1,4 +1,4 @@
-# Personal_Portfolio
+# Personal Portfolio
 
 The website starts with an astronomy-themed landing page with scroll animation on different elements. The name of the website creator is shown in large fonts at first among a night background with mountains, a stranded road and full-moon. When the user scrolls down, the moon shifts to the left to hide behind the mountains and the scenario shifts upwards too to reveal the projects aka the four assignments. The assignments are arranged in four animated boxes with the appropriate icons. When you hover over them, the curtain effect plays on and the actual content gets revealed. When you hover over "Open" button a set of arrows appear and when you click on the "Open" you'll be directed to the specific assignment.
 
