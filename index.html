@@ -9,10 +9,10 @@
         <!-- link for fonts -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- linking css file -->
-        <link rel="stylesheet" type="text/css" href="style.css">     
+        <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
 
-    <body>
+    <body>         
         <section>
             <!-- The images for the landing page -->
             <img src="bg1.jpg" id="bg">
@@ -22,6 +22,10 @@
             <!-- Website title -->
             <h2 id="text">Raya Tabassum</h2>
         </section>
+        <!-- The title for the assignment boxes -->
+        <div class="projects">
+            <h2>Projects</h2>
+        </div>
         <!-- Interactive boxes to all the four assignments -->
         <div class="container">
             <!-- Video assignment -->
@@ -73,10 +77,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- CV Download option -->
-        <button class="btn"><i class="fa fa-download"><a href="RayaTabassum_Resume.pdf" download>Download CV</a></i></button>
         
+        <!-- CV Download option -->
+        <button class="btn"><i class="fa fa-rocket"></i><a href="RayaTabassum_Resume.pdf" download>Download CV</a></i></button>
+
         <!-- Social media pop-up buttons -->
         <div class="buttons">
             <ul>
@@ -87,7 +91,6 @@
                 <li><a href="mailto: raya.tabassum@nyu.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
-
         <!-- About me section -->
         <div class = "about-wrapper">
             <div class = "about-left">
@@ -98,8 +101,7 @@
                   </div>
                 </div>
               </div>             
-            </div>
-      
+            </div>      
             <div class = "about-right">
               <h1>About Me</h1S>                  
               <div class = "about-para">
@@ -110,8 +112,6 @@
               </div>
             </div>
         </div>
-        
-        
 
         <!-- Adding Javascript for the landing page animation -->
         <script type="text/javascript">
@@ -123,7 +123,6 @@
 
             window.addEventListener('scroll', function(){
                 var value = window.scrollY;
-
                 bg.style.top = value*0.5+'px';
                 moon.style.left = -value*0.5+'px';
                 mountain.style.top = -value*0.5+'px';
