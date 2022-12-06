@@ -213,7 +213,11 @@ section img{
     overflow: hidden;
     }
  }
-
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
 /* Download CV button */
 .btn{
     padding: 16px 35px;
