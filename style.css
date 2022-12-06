@@ -12,7 +12,7 @@
 /* Background color and ratio */
 body{
     background: #0a2a43;
-    min-height: 1500px;   
+    min-height: 1500px;
 }
 
 /* Landing page content */
@@ -74,9 +74,17 @@ section img{
     z-index: 2;
 }
 
+/* The title for the contents */
+.projects{
+    font-size: 30px;
+    color: #a7c2cb;
+    text-align: center;
+    margin-top: 360px;
+}
+
 /* Assignment website link container */
 .container{
-    margin-top: 20%;
+    margin-top: 3%;
     position: relative;
     width: 1300px;
     height: 720px;
@@ -90,7 +98,7 @@ section img{
     background-color: rgb(118, 197, 197);
     float: right;
     margin: 0 15px;
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
 }
 
@@ -134,7 +142,7 @@ section img{
 .content{
     position: absolute;
     top: 100px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-align: center;
     padding: 20px;
     height: calc(100% - 100px);
@@ -159,7 +167,7 @@ section img{
     border-radius: 4px;
     background-color: #6e5c8a;
     border: none;
-    color: #193353;
+    color: #152538;
     text-align: center;
     font-size: 28px;
     padding: 20px;
@@ -214,7 +222,7 @@ section img{
     border: rgb(230, 196, 196) 1px solid;
     border-radius: 35px;
     letter-spacing: 2px;
-    color: rgb(113, 62, 62);
+    color: rgb(51, 45, 70);
     position: absolute;
     margin-top: -20%;
     margin-left: 37.5%;
@@ -222,13 +230,13 @@ section img{
 
 /* Style the download button on hover */
 .btn:hover{
-    background-color: #2e758a;
+    background-color: rgb(58, 130, 130);
 }
 
 /* Social media buttons */
 .buttons ul{
     position: absolute;
-    top: 216%;
+    top: 237%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -382,4 +390,3 @@ section img{
         width:80%    
     }
 }
-
